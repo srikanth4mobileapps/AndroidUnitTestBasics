@@ -11,6 +11,7 @@ import androidx.compose.foundation.border
 import androidx.compose.foundation.clickable
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
+import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.offset
 import androidx.compose.foundation.layout.padding
@@ -69,22 +70,40 @@ fun Greeting(name: String, modifier: Modifier = Modifier) {
                 .border(5.dp, Color.Black)
                 .padding(20.dp)
                 .clickable {
-                    Toast.makeText(activity, "Ok Fine", Toast.LENGTH_SHORT)
+                    Toast
+                        .makeText(activity, "Ok Fine", Toast.LENGTH_SHORT)
                         .show()
                 }
         )
-        Text(
-            text = "No $name!",
-            modifier = Modifier
-                .padding(20.dp)
-                .border(5.dp, Color.Red)
-                .padding(20.dp)
-                .clickable {
-                    Toast.makeText(activity, "Duck you", Toast.LENGTH_SHORT)
-                        .show()
-                }
+        Row {
+            Text(
+                text = "No00",
+                modifier = Modifier
+                    .padding(20.dp)
+                    .border(5.dp, Color.Red)
+                    .padding(20.dp)
+                    .clickable {
+                        Toast
+                            .makeText(activity, "Duck you", Toast.LENGTH_SHORT)
+                            .show()
+                    }
 
-        )
+            )
+            Text(
+                text = "No",
+                modifier = Modifier
+                    .padding(20.dp)
+                    .border(5.dp, Color.Red)
+                    .padding(20.dp)
+                    .clickable {
+                        Toast
+                            .makeText(activity, "here also Duck you bro", Toast.LENGTH_SHORT)
+                            .show()
+                    }
+
+            )
+        }
+
     }
 }
 
