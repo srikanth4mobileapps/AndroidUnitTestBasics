@@ -6,3 +6,6 @@ MASTER BRNACH
 
 IMAGECARDCOMPOSABLE BRANCH 
 1.Created an Image Card Composable - Android Jetpack Compose
+
+TextStyling Branch
+1.Text styling with fonts and buildAnnotatedString(Spannable)
