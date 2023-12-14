@@ -4,7 +4,7 @@
 3.Modifier added , context in composable added
 4.Row added
 
-**IMAGECARDCOMPOSABLE BRANCH **
+**IMAGECARDCOMPOSABLE BRANCH**
 1.Created an Image Card Composable - Android Jetpack Compose
 
 **TextStyling Branch**
